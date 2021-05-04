@@ -28,13 +28,13 @@ local function base16_to_lightline(theme)
     p.insert.left     = { part( base01, base0B ), part( base05, base02 ) }
     p.visual.left     = { part( base00, base09 ), part( base05, base02 ) }
     p.replace.left    = { part( base00, base08 ), part( base05, base02 ) }
-    p.inactive.left   = { part( base02, base00 ) }
+    p.inactive.left   = { part( base04, base00 ) }
 
     p.normal.middle   = { part( base07, base01 ) }
-    p.inactive.middle = { part( base01, base00 ) }
+    p.inactive.middle = { part( base04, base00 ) }
 
-    p.normal.right    = { part( base01, base03 ), part( base06, base02 ) }
-    p.inactive.right  = { part( base01, base00 ) }
+    p.normal.right    = { part( base00, base0D ), part( base06, base02 ) }
+    p.inactive.right  = { part( base04, base00 ) }
 
     p.normal.error    = { part( base07, base08 ) }
     p.normal.warning  = { part( base07, base09 ) }
