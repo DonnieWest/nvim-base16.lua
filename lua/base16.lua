@@ -321,16 +321,16 @@ local function apply_base16_theme(theme, use_256_colorspace, extra_features)
 	highlight("SpellRare",    nil, nil, nil, nil, "undercurl", theme.base0E)
 
 	-- Startify highlighting
-	highlight("StartifyBracket",  theme.base03, nil, cterm03, nil, nil, nil)
-	highlight("StartifyFile",     theme.base07, nil, cterm07, nil, nil, nil)
+	highlight("StartifyBracket",  theme.base09, nil, cterm03, nil, nil, nil)
+	highlight("StartifyFile",     theme.base0A, nil, cterm07, nil, nil, nil)
 	highlight("StartifyFooter",   theme.base03, nil, cterm03, nil, nil, nil)
 	highlight("StartifyHeader",   theme.base0B, nil, cterm0B, nil, nil, nil)
 	highlight("StartifyNumber",   theme.base09, nil, cterm09, nil, nil, nil)
-	highlight("StartifyPath",     theme.base03, nil, cterm03, nil, nil, nil)
+	highlight("StartifyPath",     theme.base0C, nil, cterm03, nil, nil, nil)
 	highlight("StartifySection",  theme.base0E, nil, cterm0E, nil, nil, nil)
 	highlight("StartifySelect",   theme.base0C, nil, cterm0C, nil, nil, nil)
-	highlight("StartifySlash",    theme.base03, nil, cterm03, nil, nil, nil)
-	highlight("StartifySpecial",  theme.base03, nil, cterm03, nil, nil, nil)
+	highlight("StartifySlash",    theme.base0C, nil, cterm03, nil, nil, nil)
+	highlight("StartifySpecial",  theme.base0D, nil, cterm03, nil, nil, nil)
 
 	-- Java highlighting
 	highlight("javaOperator",     theme.base0D, nil, cterm0D, nil, nil, nil)
